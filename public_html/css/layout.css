@@ -1,10 +1,79 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 20-feb-2017, 19:30:13
-    Author     : LENOVO
-*/
+aside{
+    width: 25%;
+    float: left;
+}
 
+article{
+    width: 75%;
+    float: left;
+}
+
+footer{
+    float: left;
+    width: 100%;
+}
+header{
+    float: left;
+    width: 100%;
+}
+nav{
+    float: left;
+    width: 100%;
+}
+
+
+@media screen and (max-width: 960px){
+    aside{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+
+    footer{
+        float: left;
+    }
+    header{
+        float: left;
+    }
+}
+
+@media screen and (max-width: 768px){
+    aside{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 550px){ 
+    aside{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    aside{
+        width: 100%;
+    }
+
+    article{
+        width: 100%;
+    }
+
+}
+
+
+header{
+    background: grey;
+}
+nav{
+    background: gray;
+}
